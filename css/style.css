@@ -1,0 +1,115 @@
+body {font-family: 'Montserrat' bold;
+    color:#000000;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 100%;}
+
+main {margin:0 auto;
+    max-width:1024px;}
+
+    img {width: 100%;}
+
+p   {font-family: 'Montserrat' bold;
+    text-align: left;}
+i   {text-align: right;}
+h1  {font-family: 'Montserrat' black; !important}
+a   {font-family: 'Montserrat' bold; !important
+    text-align: center;
+    text-decoration-line: none;}
+h3  {text-align:left;}
+div {font-family: 'Montserrat'}
+
+.myfont {font-family: 'Montserrat' bold;}
+  
+/* Paletas de Cores */
+
+/* Rosa do menu */
+.paleta {background-color: #EF7DAD;
+        color:#000000; !important
+}
+/* Laranja do Menu */
+.paleta2 {background-color:#FA8F45;
+        color:#000000; !important
+}
+/* Amarelo do menu */
+.paleta3 {background-color:#FBCE4F;
+        color:#000000; !important
+}
+/* Verde-azulado do menu */
+.paleta4 {background-color:#64C099;
+        color:#000000; !important
+}
+/* Lilás do menu */
+.paleta5 {background-color:#BC93C3;
+        color:#000000; !important
+}
+/* Rosa pastel conheça-nos */
+.paleta6 {background-color: #F3A092;
+         !important
+}
+/* Bege pastel quero ajudar */
+.paleta7 {background-color: #F1C58D;
+        color:#000000; !important
+}
+/* Azul pastel quero adotar */
+.paleta8 {background-color: #8AB8BB;
+        color:#000000; !important
+}
+/* Azul APASFA*/
+.paleta9 {background-color: #0B9CDA;
+        color:#000000; !important
+}
+/* Cinza do Footer */
+.paletaf {background-color: #5B6467;
+        color: #FFFFFF;
+        !important
+}
+
+.paleta10 {background-color: #96BFB5;
+        color: #000000;}
+
+
+/* Caixa de mensagem do contato */
+.message{
+    width: 50px; 
+    height: 100px;
+}
+    /* Container de teste */
+.containerp {padding: 30px;
+width: 350px;
+height: 30px;}
+ 
+/* Container de teste de grid */
+.containerg {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+width: 100%;
+padding-left: 152px;
+}
+
+/* Padding Oficial*/
+@media (min-width: 1170px) {
+    .pad {padding: 10px 150px;}
+    .pad2 {padding: 10px 200px;}
+    .pad3 {padding: 20px 180px;}
+    
+}
+/* H1 Maior da APASFA no footer */
+.grande {font-size: 70px;
+        font-family:'Montserrat' medium; !important 
+}
+
+.medio {font-size: 40px;
+        font-family:'Montserrat' medium; !important }
+
+/* Teste de Grid com Colunas */
+.shadow:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #5B6467 );
+  filter: drop-shadow(5px 5px 5px #5B6467);
+
+    
+
+}
+   .background {
+    opacity: 0.5;
+}
